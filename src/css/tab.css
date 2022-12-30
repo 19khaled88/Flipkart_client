@@ -1,0 +1,15 @@
+/* .active{
+  display: block;
+  
+}
+.inactive{
+    display: none;
+    
+} */
+.block-tabs{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: auto;
+    justify-content: space-evenly;
+}

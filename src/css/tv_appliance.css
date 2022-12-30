@@ -1,0 +1,53 @@
+.appliance > div:nth-child(2){
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ padding-top: 20px;
+ padding-bottom: 20px;
+ gap: 20px;
+}
+.appliance > div:nth-child(2) div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.appliance > div:nth-child(2) div >img{
+    flex: 1;
+}
+.appliance > div:nth-child(2) div >p{
+    flex: 2;
+}
+
+.banner > div{
+    position: relative;
+}
+
+.banner > div > div{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rebeccapurple;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+    background-color: white;
+    gap: 15px;
+    position: absolute;
+    left: 50%;
+    padding: 5px;
+    border-radius: 10px;
+    transform: translate(-50%, -120%);
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.banner > div > div img:nth-child(1){
+    flex: 1;
+}
+.banner >div >div img:nth-child(2){
+    flex: 2;
+}
+.banner > div >div img:nth-child(3){
+    flex: 3;
+}

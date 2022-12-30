@@ -1,0 +1,102 @@
+.carousel-contain{
+    
+}
+.root{
+    width: 95%; 
+    margin: auto;
+    margin-bottom: 20px;
+}
+.top p{
+    font-size: 12px;
+    color: gray
+}
+.top div{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    width: 90%
+}
+.top div a ul{
+    padding: 0px 10px 0px 0px;
+    margin: 0px
+}
+
+.down{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.downLeft{
+    width: 18%;
+    padding-left: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.downLeft div a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.downLeft div a button{
+    padding-left: 0px;
+    color: black;
+}
+
+.downLeft div a img{
+    width: 15px; 
+    height: 15px
+}
+
+.downRight{
+    width: 78%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;        
+}
+
+.downRight div:nth-child(1){
+    margin: 7px auto;
+    width: 985;
+}
+.downRight div:nth-child(1) span{
+    height: 160px;
+    width: 180px;
+    display: flex;
+   flex-direction: column;
+}
+.downRight div:nth-child(1) span img{
+    width: 90%;
+    height: 70%;
+    padding: 2px 0px 5px 0px;
+    margin: 5px 0px 0px 0px;
+}
+
+.downRight div:nth-child(2){
+    padding-top: 15px;
+}
+.downRight div:nth-child(3){
+   padding-top: 15px;
+   height: 320px;
+   margin-bottom: 35px;
+
+}
+.downRight div:nth-child(3) div:nth-child(1){
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color:gray;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+

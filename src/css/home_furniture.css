@@ -1,0 +1,249 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    margin: auto;
+    width: 98%;
+    
+}
+.banner h2{
+    margin: 0px 0px 10px 0px;
+
+}
+
+.topDealTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 20px 15px 10px 15px;
+}
+.topDealTitle span{
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+
+.topDealTitle button{
+    padding: 10px 15px;
+    margin: 4px 0px;
+    background-color: #2874f0;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.topDeals{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    /* border-top: 1px solid gray;
+    border-bottom: 1px solid gray; */
+    padding-top: 20px;
+    width: 98%;
+    margin: auto;
+    padding-bottom: 20px;
+    /* margin-bottom: 40px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.topDeals div h4{
+    margin: 9px 0px 2px 0px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.topDeals div p{
+    margin: 5px 0px 5px 0px;
+    font-size: 14px;
+}
+.topDeals div p:nth-child(3){
+    color: green;
+}
+.topDeals div p:nth-child(4){
+    color: grey;
+}
+
+.toolsHardwareTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 20px 15px 10px 15px;
+}
+.toolsHardwareTitle span{
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+.toolsHardwareTitle button{
+    padding: 10px 15px;
+    margin: 4px 0px;
+    background-color: #2874f0;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.toolsHardware{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    padding-top: 20px;
+    width: 98%;
+    margin: auto;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.toolsHardware div h4{
+    margin: 9px 0px 2px 0px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.toolsHardware div p{
+    margin: 5px 0px 5px 0px;
+    font-size: 14px;
+}
+.toolsHardware div p:nth-child(3){
+    color: green;
+}
+.toolsHardware div p:nth-child(4){
+    color: grey;
+}
+
+
+.homeFurnishingsTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 20px 15px 10px 15px;
+}
+.homeFurnishingsTitle span{
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+.homeFurnishingsTitle button{
+    padding: 10px 15px;
+    margin: 4px 0px;
+    background-color: #2874f0;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.homeFurnishings{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    padding-top: 20px;
+    width: 98%;
+    margin: auto;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 30px;
+}
+.homeFurnishings ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+.toolsHardware ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.topDeals ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+.topDeals ul li:hover{
+    border-radius: 5px;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.topDeals ul li div img{
+    padding-top: 3px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.homeFurnishings div h4{
+    margin: 9px 0px 2px 0px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.homeFurnishings div p{
+    margin: 5px 0px 5px 0px;
+    font-size: 14px;
+}
+.homeFurnishings div p:nth-child(3){
+    color: green;
+}
+.homeFurnishings div p:nth-child(4){
+    color: grey;
+}
+
+
+/* Image zoom hover */
+
+/* [1] The container */
+.img-hover-zoom{
+   
+    overflow: hidden;
+}
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+
+  /* Zoom-n-rotate Container */
+.img-hover-zoom--zoom-n-rotate img {
+    transition: transform .5s ease-in-out;
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--zoom-n-rotate:hover img {
+    transform: scale(2) rotate(25deg);
+  }
+/* Slow-motion Zoom Container */
+.img-hover-zoom--slowmo img {
+    transform-origin: 50% 65%;
+    transition: transform 5s, filter 3s ease-in-out;
+    filter: brightness(150%);
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--slowmo:hover img {
+    filter: brightness(100%);
+    transform: scale(3);
+  }

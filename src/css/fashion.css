@@ -1,0 +1,291 @@
+.Fashion{
+    position: relative;
+    width: 98%;
+    margin: auto;
+}
+.Fashion > div:nth-child(1) h2{
+    margin-bottom: 10px;
+}
+
+
+
+.Fashion > div:nth-child(2){
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rebeccapurple;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+    background-color: white;
+    gap: 15px;
+    position: absolute;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.Fashion > div:nth-child(2) > span{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.Fashion > div:nth-child(2) > span:nth-child(1){
+    border-right: 1px solid black;
+}
+.Fashion > div:nth-child(2) > span:nth-child(2){
+    border-right: 1px solid black;
+}
+
+
+
+.Fashion > div:nth-child(3){
+    margin-top: 80px;
+    border-top: 1px solid gray;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Fashion > div:nth-child(3) p{
+    margin: 15px 0px 15px 0px;
+}
+.Fashion > div:nth-child(3) button{
+    width: 90px;
+    font-size: 15px;
+    height: 40px;
+    background-color: #2874F0;
+    color: whitesmoke;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+.Fashion > div:nth-child(4)  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:5px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 20px 0px 20px 0px;
+    /* margin-bottom: 20px; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: auto;
+    width: 98%;
+}
+.Fashion > div:nth-child(4) div{
+    text-align: center;
+}
+
+.Fashion > div:nth-child(4) > div > h4:nth-child(2){
+    margin: 8px 0px 0px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+}
+.Fashion > div:nth-child(4) > div > p:nth-child(3){
+    margin: 8px 0px 0px;
+    text-align: center;
+}
+.Fashion > div:nth-child(4) > div > p:nth-child(4){
+    margin: 8px 0px 0px;
+    text-align: center;
+}
+
+.Fashion > div:nth-child(4) > div > img:hover{
+    /* transform: rotateX(45deg) rotateZ(-25deg);
+    transform-style: preserve-3d;
+    transition: .3s; */
+
+    display: inline-block;
+    background: linear-gradient(180deg,#ff8a00,#e52e71);
+    height: 150px;
+    width: 150px;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+  
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    opacity: .7;
+}
+@keyframes skew {
+    0% {
+      transform: skew(20deg, 20deg);
+    }
+    100% {
+      transform: skew(-20deg, -20deg);
+    }
+  }
+  
+  
+  
+
+
+
+/**/
+
+  
+
+
+/**/
+
+
+.Fashion > div:nth-child(5){
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Fashion > div:nth-child(5) p{
+    margin: 15px 0px 15px 0px;
+}
+.Fashion > div:nth-child(5) button{
+    width: 90px;
+    font-size: 15px;
+    height: 40px;
+    background-color: #2874F0;
+    color: whitesmoke;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+.Fashion > div:nth-child(6){
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: space-evenly;
+    margin: auto;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 98%;
+}
+.Fashion > div:nth-child(6) > div > h4:nth-child(2){
+    margin: 8px 0px 0px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+}
+.Fashion > div:nth-child(6) > div > p:nth-child(3){
+    margin: 8px 0px 0px;
+    text-align: center;
+}
+.Fashion > div:nth-child(6) > div > p:nth-child(4){
+    margin: 8px 0px 0px;
+    text-align: center;
+}
+
+.Fashion > div:nth-child(6) > div > div:nth-child(1){
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+.Fashion > div:nth-child(6) > div > div:nth-child(1) img{
+    height: 150px;
+      width: 150px;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.Fashion > div:nth-child(6) > div > div:nth-child(1) img:hover{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+.Fashion > div:nth-child(7){
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Fashion > div:nth-child(7) p{
+    margin: 15px 0px 15px 0px;
+}
+.Fashion > div:nth-child(7) button{
+    width: 90px;
+    font-size: 15px;
+    height: 40px;
+    background-color: #2874F0;
+    color: whitesmoke;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+.Fashion > div:nth-child(8){
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 98%;
+}
+.Fashion > div:nth-child(8) > div > h4:nth-child(2){
+    margin: 8px 0px 0px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+}
+.Fashion > div:nth-child(8) > div > p:nth-child(3){
+    margin: 8px 0px 0px;
+    text-align: center;
+}
+.Fashion > div:nth-child(8) > div > p:nth-child(4){
+    margin: 8px 0px 0px;
+    text-align: center;
+}
+
+.Fashion > div:nth-child(8) > div > div:nth-child(1){
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+.Fashion > div:nth-child(8) > div > div:nth-child(1) img{
+    height: 150px;
+      width: 150px;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.Fashion > div:nth-child(8) > div > div:nth-child(1) img:hover{
+    width: 140px;
+    height: 140px;
+}
+

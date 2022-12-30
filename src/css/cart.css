@@ -1,0 +1,15 @@
+.cart-active{
+    display: flex;
+    
+}
+.cart-inactive{
+    display: none;
+}
+.isSelected{
+    border-bottom: 2px solid seagreen;
+    margin-top: 5px;
+}
+
+.notSelected{
+    border-bottom: none;
+}

@@ -1,0 +1,50 @@
+.login-menu{
+    position: relative;
+    display: inline-block;
+
+}
+.more-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9f9;
+    z-index: 1;
+    min-width: 158px;
+}
+
+.dropdown-menu ul:hover{
+    background-color: #000;
+    color:#fff;
+    
+}
+.dropdown-menu li{
+    font-size: 12px;
+    
+}
+.dropdown-menu div{
+    border-bottom: 1px solid gray;
+    width: 90%;
+    margin: auto;
+}
+.dropdown-menu div:last-child{
+    border-bottom: none;
+}
+
+.login-menu:hover .dropdown-menu{
+    display: block;
+}
+.login-menu:hover .menu-button{
+    color: blue;
+    background-color: white;
+}
+.more-menu:hover .dropdown-menu{
+    display: block;
+}
+.more-menu:hover .menu-button{
+    color: blue;
+    background-color: white;
+}
